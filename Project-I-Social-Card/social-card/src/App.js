@@ -1,13 +1,9 @@
 import React from 'react';
 import './App.css';
+import './components/HeaderComponents/Header.css';
+import './components/CardComponents/Card.css';
 import HeaderContainer from './components/HeaderComponents/HeaderContainer';
-import ImageThumbnail from './components/HeaderComponents/ImageThumbnail';
-import HeaderContent from './components/HeaderComponents/HeaderContent';
-import HeaderTitle from './components/HeaderComponents/HeaderTitle';
-import HeaderText from './components/HeaderComponents/HeaderText';
 import CardContainer from './components/CardComponents/CardContainer';
-import CardBanner from './components/CardComponents/CardBanner';
-import CardContent from './components/CardComponents/CardContent';
 
 
 
@@ -31,13 +27,7 @@ const App = () => {
     // </div>
     <div>
       <HeaderContainer />
-        <ImageThumbnail />
-        <HeaderContent />
-          <HeaderTitle />
-          <HeaderText />
       <CardContainer />
-        <CardBanner />
-        <CardContent />
     </div>
   );
 };
