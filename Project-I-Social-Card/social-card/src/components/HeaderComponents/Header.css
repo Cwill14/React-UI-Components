@@ -1,1 +1,26 @@
 /* All styles for your header Components live here */
+.header-container {
+    display: flex;
+    border: 1px solid red;
+    height: 100%;
+}
+.header-content {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid blue;
+    padding: 15px;
+
+}
+.header-title {
+    display: flex;  
+    /* border: 1px dashed green; */
+
+}
+.header-title p {
+    color: gray;
+    /* border: 1px dashed purple; */
+
+}
+.image {
+    border: 1px solid green;
+}

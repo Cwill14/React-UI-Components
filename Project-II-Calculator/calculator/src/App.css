@@ -1,0 +1,8 @@
+.calc-container {
+    border: 1px solid black;
+    height: 650px;
+    width: 400px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
